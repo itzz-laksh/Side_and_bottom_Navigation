@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_folder"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_people"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_access_time"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_baseline_account"
+            android:title="@string/menu_recent" />
+        <!--<item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/ic_baseline_offline_pin"
+            android:title="@string/menu_offline" />
+        <item
+            android:id="@+id/nav_uploads"
+            android:icon="@drawable/ic_baseline_upload"
+            android:title="@string/menu_uploads" />
+        <item
+            android:id="@+id/nav_backups"
+            android:icon="@drawable/ic_baseline_backup"
+            android:title="@string/menu_backups" />-->
+    </group>
+</menu>
